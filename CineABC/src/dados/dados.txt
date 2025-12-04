@@ -1,0 +1,18 @@
+# Arquivo de dados do Cine ABC
+# Formato: [Seção] seguido por registros com campos separados por |
+
+[Filmes]
+# ID  | Título                     | Duração | Gênero                    
+#-----|----------------------------|---------|---------------------------
+
+[Salas]
+# Número | Capacidade | Tipo        | Ativa 
+#--------|------------|-------------|-------
+
+[Sessoes]
+# ID  | Filme ID | Sala Nº | Data/Hora          | Ingressos Vendidos | Preço   
+#-----|----------|---------|--------------------|--------------------|---------
+
+[Ingressos]
+# ID  | Sessão ID | Tipo       | Preço   | Assento | Nome Cliente               
+#-----|-----------|------------|---------|---------|----------------------------
